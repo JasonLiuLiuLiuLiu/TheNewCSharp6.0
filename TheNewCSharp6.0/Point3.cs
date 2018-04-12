@@ -9,11 +9,7 @@ namespace TheNewCSharp6._0
         public int X { get; }
         public int Y { get; }
 
-        public Point3(int x, int y)
-        {
-            X = x;
-            Y = y;
-        }
+        public Point3(int x, int y){ X = x; Y = y;}
 
         public double Dist => Sqrt(X * X + Y * Y);
 

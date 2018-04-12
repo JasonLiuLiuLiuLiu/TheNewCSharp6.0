@@ -14,8 +14,6 @@ namespace TheNewCSharp6._0
         {
             if(point==null)
                 throw new ArgumentNullException(nameof(point));
-
-         
         }
     }
 
